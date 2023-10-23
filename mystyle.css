@@ -1,0 +1,93 @@
+header {
+    display: flex; /* Use Flexbox to align items horizontally */
+  align-items: center; /* Center items vertically within the flex container */
+}
+
+header nav ul {
+    list-style: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding for the list */
+  display: flex;
+  margin: 0;
+  overflow: hidden; /* hides the fact if the content in the box overflows then it won't show*/
+  border-bottom: 3px solid; /* adds a border line under the navigation */
+}
+
+header nav li {
+    margin-right: 10px; /* Add spacing between navigation items */
+    float: left; /* allows the content to be moved to the left of each other */
+  }
+
+header nav a {
+  display: block; /* displays the navigation in the header */
+  color: black; /* changes the text color */
+  text-align: center; /* aligns the text to center in each of their elements */
+  padding: 14px 16px; /* creates space between content and border */
+  text-decoration: none; /* takes away any design of the text */
+}
+
+a {
+  font-family: Verdana; /* changes the font */
+}
+
+h1 {
+  /* changes font characteristics */
+  font-size: 36px;
+  font-family: Garamond;
+}
+
+body {
+  background-color: lightblue; /* changes the background color of the page */
+}
+
+p {
+  /* changes font characteristics */
+  font-family: Verdana;
+  font-size: 24px;
+}
+
+li a:hover {
+  color: white; /* when the mouse hovers over the text it will change colors */
+}
+
+main nav ul {
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding for the list */
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+}
+
+main nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 3px solid;
+}
+
+.center { /* a class that centers the picture on the page*/
+  display: block;
+  margin-left: auto; /* automatically leaves margin space to the left */
+  margin-right: auto; /* automatically leaves margin space to the right */
+  width: 95%; /* how wide the picture is in the middle of the page */
+}
+
+h2 {
+  /* changes font characteristics */
+  font-size: 30px;
+  font-family: 'Times New Roman';
+}
+
+label {
+  font-size: 22px; /* changes font size */
+}
+
+h3 {
+  font-size: 26px; /* changes font size */
+}
+
+ol{
+  list-style-type: upper-roman; /* changes the syle of the ordered list */
+  font-size: 20px; /*changes font size */
+}

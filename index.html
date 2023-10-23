@@ -7,7 +7,7 @@
         <meta name="keywords" content="Impeccable International Airlines">
         <meta name="author" content="Vincent Moorer">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link href="mystyle.css" rel="stylesheet">
     </head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PF7GV8LZG"></script>
@@ -20,7 +20,7 @@
 </script>
     <body>
         <header>
-            <img src="images/logo.jpg" alt="image of logo" width="300" height="100"> 
+            <img src="images/logo.jpg" alt="image of logo" width="250" height="90"> 
             <h1>Impeccable International Airlines</h1>
             <nav>
                 <ul>
@@ -32,13 +32,21 @@
             </nav>
         </header>
         <main>
-            <div>
-                <img src="images/Airplane.jpg" alt="image of an airplane" width="1200" height="800">
+            <!--Places the image in the center of the page-->
+            <div class="container">
+                <img src="images/Airplane.jpg" alt="image of an airplane" class="center">
             </div>
+            <!--This puts the text and the navigation on the same line-->
+            <p style="display:inline-block;"> Take flight with your mind at ease.</p>
+            <nav style="display: inline-block;">
+                <ul>
+                    <li><a href="booking.html">Book a Flight</a></li>
+                </ul>
+            </nav>
             <p>Greetings from Impeccable International Airlines. We would like to extend our deepest gratitude to our customers. We are honored to have you with us. We will treat you with dignity and respect as you are our most valuable asset. We have an open door policy and will always listen to your concerns or ideas. Together we will achieve more in this company. </p>
         </main>
         <footer>
-
+            Private Policy © Impeccable International Airlines All Rights Reserved.
         </footer>
     </body>
 </html>
