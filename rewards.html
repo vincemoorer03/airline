@@ -10,6 +10,30 @@
         <link href="mystyle.css" rel="stylesheet">
 
     </head>
+    <style>
+        h2, h3, main ul {
+            color:white;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        h3 {
+            font-size: 35px;
+        }
+        main ul{
+        font-size: 30px; /*changes font size */
+        }
+        .container {
+            position: relative;
+        }
+        .text-block{
+            position: absolute;
+            top: 20%;
+            left: 3%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding-left: 10px;
+        }
+    </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PF7GV8LZG"></script>
 <script>
@@ -33,31 +57,30 @@
             </nav>
         </header>
         <main>
-            <div>
+            <div class="container">
                 <img src="images/Rewards.jpg" alt="image for rewards page" class="center">
             </div>
-            <h2>Rewards</h2>
-            <h3>How to earn rewards:</h3>
-            <ol>
-                <!--This puts the text and the navigation on the same line-->
-                <li style="display:inline-block;">You have to sign up and create an account</li> 
-                    <nav style="display:inline-block;">
-                        <li><a href="sign-up.html">Sign Up</a></li>
-                    </nav>
-                <li>You can earn points by booking</li>
-                <li>100 points will be given to you after booking your first flight</li>
-                <li>Your points do not expire</li>
-                <li>The first level of earning points is “bronze”, earn 10 points for each $1 spent on your ticket</li>
-                <li>Silver status will earn 15 points for each $1 spent</li>
-                <li>Platinum status will earn 20 points for each $1 spent</li>
-                <li>Your status will upgrade automatically once you hit the limit for each status</li>
-                <li>Bronze - 150 points</li>
-                <li>Silver - 500 points</li>
-                <li>Platinum - 1200 points</li>
-            </ol>
+            <div class="text-block">
+                <h2>Rewards</h2>
+                <h3>How to earn rewards:</h3>
+                <ul>
+                    <!--This puts the text and the navigation on the same line-->
+                    <li>You have to sign up and create an account</li> 
+                    <li>You can earn points by booking</li>
+                    <li>100 points will be given to you after booking your first flight</li>
+                    <li>Your points do not expire</li>
+                    <li>The first level of earning points is “bronze”, earn 10 points for each $1 spent on your ticket</li>
+                    <li>Silver status will earn 15 points for each $1 spent</li>
+                    <li>Platinum status will earn 20 points for each $1 spent</li>
+                    <li>Your status will upgrade automatically once you hit the limit for each status</li>
+                    <li>Bronze - 150 points</li>
+                    <li>Silver - 500 points</li>
+                    <li>Platinum - 1200 points</li>
+                </ul>
+            </div>
         </main>
         <footer>
-            Private Policy © Impeccable International Airlines All Rights Reserved.
+            Private Policy &copy; Impeccable International Airlines All Rights Reserved.
         </footer>
     </body>
 </html>

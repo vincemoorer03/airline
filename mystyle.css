@@ -70,7 +70,7 @@ main nav a {
   display: block;
   margin-left: auto; /* automatically leaves margin space to the left */
   margin-right: auto; /* automatically leaves margin space to the right */
-  width: 95%; /* how wide the picture is in the middle of the page */
+  width: 100%; /* how wide the picture is in the middle of the page */
 }
 
 h2 {
@@ -85,9 +85,4 @@ label {
 
 h3 {
   font-size: 26px; /* changes font size */
-}
-
-ol{
-  list-style-type: upper-roman; /* changes the syle of the ordered list */
-  font-size: 20px; /*changes font size */
 }

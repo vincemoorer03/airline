@@ -10,6 +10,31 @@
         <link href="mystyle.css" rel="stylesheet">
 
     </head>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .text-block{
+            position: absolute;
+            top: 20%;
+            left: 3%;
+            padding-left: 10px;
+        }
+        .pick {
+            position: absolute;
+            top: 30%;
+            left: 3%;
+            padding-left: 10px;
+        }
+        .form {
+            position: absolute;
+            background-color: rgba(173, 216, 230, 0.7);
+            top: 35%;
+            left: 3%;
+            padding-left: 10px;
+        }
+    </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PF7GV8LZG"></script>
 <script>
@@ -33,17 +58,17 @@
             </nav>
         </header>
         <main>
-            <div>
+            <div class="container">
                 <img src="images/booking.webp" alt="image for booking page" class="center">
             </div>
-                <h2>Book a Flight</h2>
-                <select>
+                <h2 class="text-block">Book a Flight</h2>
+                <select class="pick">
                     <option>One-way</option>
                     <option>Round Trip</option>
                     <option>Multi-City</option>
-            </select>
+                </select>
                 
-            <div>
+            <div class="form">
                 <form>
                     <label for="fdestination">From:</label>
                     <input type="text" id="fdestination" name="fdestination">
@@ -92,7 +117,7 @@
             </div>
         </main>
         <footer>
-            Private Policy © Impeccable International Airlines All Rights Reserved.
+            Private Policy &copy; Impeccable International Airlines All Rights Reserved.
         </footer>
     </body>
 </html>

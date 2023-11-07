@@ -9,6 +9,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="mystyle.css" rel="stylesheet">
     </head>
+
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .text-block{
+            position: absolute;
+            top: 20%;
+            left: 3%;
+            color: white;
+            padding-left: 10px;
+        }
+
+        main nav ul{
+            color: white;
+        }
+
+        .greet {
+            position: absolute;
+            text-align: center;
+            bottom: -35%;
+            left: -1%;
+            color: white;
+            padding-left: 10px;
+        }
+    </style>
+
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PF7GV8LZG"></script>
 <script>
@@ -36,17 +64,21 @@
             <div class="container">
                 <img src="images/Airplane.jpg" alt="image of an airplane" class="center">
             </div>
-            <!--This puts the text and the navigation on the same line-->
-            <p style="display:inline-block;"> Take flight with your mind at ease.</p>
-            <nav style="display: inline-block;">
-                <ul>
-                    <li><a href="booking.html">Book a Flight</a></li>
-                </ul>
-            </nav>
-            <p>Greetings from Impeccable International Airlines. We would like to extend our deepest gratitude to our customers. We are honored to have you with us. We will treat you with dignity and respect as you are our most valuable asset. We have an open door policy and will always listen to your concerns or ideas. Together we will achieve more in this company. </p>
+            <div class="text-block">
+                <!--This puts the text and the navigation on the same line-->
+                <p style="display:inline-block;"> Take flight with your mind at ease.</p>
+                <nav style="display: inline-block;">
+                    <ul>
+                        <li><a href="booking.html">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="greet">
+                <p>Greetings from Impeccable International Airlines. We would like to extend our deepest gratitude to our customers. We are honored to have you with us. We will treat you with dignity and respect as you are our most valuable asset. We have an open door policy and will always listen to your concerns or ideas. Together we will achieve more in this company. </p>
+            </div>
         </main>
         <footer>
-            Private Policy © Impeccable International Airlines All Rights Reserved.
+            Private Policy &copy; Impeccable International Airlines All Rights Reserved.
         </footer>
     </body>
 </html>
