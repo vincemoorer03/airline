@@ -5,9 +5,9 @@ header {
 
 header nav ul {
     list-style: none; /* Remove bullet points from the list */
-  padding: 0; /* Remove default padding for the list */
+  padding-left: 10px; 
   display: flex;
-  margin: 0;
+  margin: 5px;
   overflow: hidden; /* hides the fact if the content in the box overflows then it won't show*/
   border-bottom: 3px solid; /* adds a border line under the navigation */
 }
@@ -70,19 +70,19 @@ main nav a {
   display: block;
   margin-left: auto; /* automatically leaves margin space to the left */
   margin-right: auto; /* automatically leaves margin space to the right */
-  width: 100%; /* how wide the picture is in the middle of the page */
+  width: 90%; /* how wide the picture is in the middle of the page */
 }
 
 h2 {
   /* changes font characteristics */
-  font-size: 30px;
+  font-size: 33px;
   font-family: 'Times New Roman';
 }
 
 label {
-  font-size: 22px; /* changes font size */
+  font-size: 26px; /* changes font size */
 }
 
 h3 {
-  font-size: 26px; /* changes font size */
+  font-size: 30px; /* changes font size */
 }
